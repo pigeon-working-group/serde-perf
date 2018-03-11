@@ -1,0 +1,16 @@
+[package]
+name = "serde-perf"
+version = "0.1.0"
+authors = ["Philip Trauner <philip.trauner@arztpraxis.io>"]
+
+[dependencies]
+bincode = "1.0.0"
+serde_cbor = "0.8.2"
+rmp-serde = "0.13.7"
+bson = "0.11.1"
+serde_json = "1.0.11"
+serde-pickle = "0.4.0"
+ron = "0.2.0"
+
+serde = "1.0.27"
+serde_derive = "1.0.27"
